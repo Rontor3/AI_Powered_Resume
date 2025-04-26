@@ -2,8 +2,6 @@
 Make your own AI Powered Resume for free , unlike all the paid application provider that give you suggestions and match job scores  on your resume
 
 
-# 🧠 AI-Powered Resume & Job Description (JD) Matcher
-
 An AI-driven web app that evaluates how well a resume matches a job description (JD),  
 provides a realistic ATS-friendliness score, and detailed improvement feedback.
 
