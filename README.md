@@ -44,6 +44,49 @@ I built this project to leverage open-source models and modern LLMs to make **ac
 ## 📦 Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/resume-jd-matcher.git
-   cd resume-jd-matcher
+      
+      ```bash
+      git clone https://github.com/Rontor3/AI_Powered_Resume.git
+      cd AI_Powered_Resume
+      (Optional) Create a Virtual Environment
+      
+      bash
+      Copy
+      Edit
+      python -m venv venv
+      source venv/bin/activate       # For Linux/Mac
+      venv\Scripts\activate          # For Windows
+      Install Required Packages
+      
+      bash
+      Copy
+      Edit
+      pip install -r requirements.txt
+      Set Up Your Hugging Face API Token
+      
+      Create an account on Hugging Face if you don't have one.
+      
+      Go to Access Tokens and create a new token with Read access.
+      
+      Create a .env file in the root directory.
+      
+      Add this line to .env:
+      
+      bash
+      Copy
+      Edit
+      HF_TOKEN=your_huggingface_api_token_here
+      Run the Streamlit App
+      
+      bash
+      Copy
+      Edit
+      streamlit run app.py
+      Open the App
+      
+      The app will automatically open in your browser at:
+      
+      arduino
+      Copy
+      Edit
+      http://localhost:8501/
